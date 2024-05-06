@@ -2,63 +2,82 @@
 
 <html>
     <head>
-        <title>Travel Recommendation</title>
-        <style media="all">
-
-            h1, h1+nav {display: inline;}
-            section, section+nav {display: inline;}
-            
-        </style>
+        <link rel="stylesheet" href="travel_recommendations.css"> 
+        <title>Travel Recommendations</title>
     </head>
     <body>
-        <div id="#navbar">
+        <section id="navbar">
             <nav>
-                <h1>TravelBloom</h1>
+                <h1>Travel Recommendations</h1>
                 <a href="#home">Home</a>
                 <a href="#aboutus">About Us</a>
                 <a href="#contactus">Contact Us</a>
             </nav>
-        </div>
-        <section id="#search">
-            <input type="text" placeholder="Search..">
-            <button>Search</button>
-            <button>Clear</button>
+            <div id="searchbar">
+                <input type="text" placeholder="Search..">
+                <button>Search</button>
+                <button>Clear</button>
+            </div>
         </section>
         <hr>
-        <div id="#home">
-            <h1>EXPLORE DREAM DESTINATION</h1><br>
-            <h5>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes
-                while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
-            </h5><br>
+        <section id="#home">
+            <h1>EXPLORE DREAM DESTINATIONS</h1>
+            <br>
+            <p>It encourages exploration of unfamiliar territories, embracing diverse
+                cultures and landscapes while pursuing the desired destination that captivates
+                the heart and ignites a sense of wonder.
+            </p>
             <button>BOOK NOW</button>
-        </div>
+        </section>
         <hr>
-        <div id="#aboutus">
-            <h1>ABOUT US</h1><br>
-            <section>
-                <h5>Welcome to Our Company! We are a team of passionate individuals dedicated to providing
-                    excellent services & products to our customers. Our mission is to provide the best experience
-                    for people travelling to different destiantions around the world.
-                </h5><br>
-            </section>
-            <section id="#ourteam">
+        <section id="#aboutus">
+            <h1>ABOUT US</h1>
+            <p>Welcome to Our Company! We are a team of passionate individuals dedicated
+                to providing excellent service/products to our customers!
+            </p>
+            <div id="#ourteam">
                 <h1>Our Team</h1>
-            </section>
-        </div>
+                <div id=#thepeople>
+                    <div class="person">
+                        <h2>John Doe</h2>
+                        <p>John is responsible for...</p>
+                        <div class="personrole">
+                            <h5>CEO</h5>
+                        <div>
+                    </div>
+                    <div class="person">
+                        <h2>Celina Thomas</h2>
+                        <p>Celina Thomas is responsible for...</p>
+                        <div class="personrole">
+                            <h5>Team Lead</h5>
+                        <div>
+                    </div>
+                    <div class="person">
+                        <h2>Mike Tyson</h2>
+                        <p>Mike Tyson is responsible for...</p>
+                        <div class="personrole">
+                            <h5>Delivery Head</h5>
+                        <div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <hr>
-        <div id="#contactus">
-            <h1>CONTACT US</h1><br>
-            <h5>Get in touch...</h5><br>
-            <form id="form1">
-                <label for="fname">Name</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="email">Email</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label for="message">Message</label><br>
-                <input type="text" id="message" name="message"><br>
-            </form>
-            <button type="submit" form="form1" value="Submit">Submit</button>
-        </div>
+        <section id="#contactus">
+            <h1>CONTACT US</h1>
+            <p>Get in touch...</p>
+            <div class="theform">
+                <form id="form1">
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="message">Message</label><br>
+                    <input type="text" id="message" name="message"><br>
+                </form>
+                <button type="submit" form="form1" value="Submit">Submit</button>
+            </div>
+        </section>
         <hr>
     </body>
 </html>
