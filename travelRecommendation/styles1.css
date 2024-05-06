@@ -13,12 +13,12 @@
 */
 nav
 {
+    display: flex;
     color: white;
     width: 100%;
     height: 50px;
     padding: 0px 50px;
     align-items: center;
-    display: flex;
     background: green;
     overflow: hidden;
 }
@@ -32,10 +32,10 @@ nav
 
 .topmenu
 {
+    padding-right: 50px;
+    list-style: none;
     list-style-type: none;
-    text-decoration: none;
     display: flex;
-    border: 5px solid;
     margin: auto;
     width: 50%;
     justify-content: center;
@@ -46,8 +46,35 @@ nav
     margin-left: 10px;
 }
 
+.topmenu li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.topmenu li a:hover
+{
+    color:#ccc
+}
+
 .searchbar
 {
-    margin: 0px;
-    padding: 0px;
+    background: white;
+    border-radius: 8px;
+    border-style: solid;
+    display: flex;
+}
+.searchbar input
+{
+    background: none;
+    border: none;
+    width: 200px;
+    height: 25px;
+}
+.searchbar button
+{
+    color: white;
+    padding: 0px 10px;
+    background-color: rgb(3, 92, 73);
+    border-radius: 8px;
 }
