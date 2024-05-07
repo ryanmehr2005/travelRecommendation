@@ -5,6 +5,11 @@
     font-family: sans-serif;
 }
 
+body
+{
+    background: lightblue;
+}
+
 /*
     padding: 0px 50px;
     display: flex;
@@ -76,4 +81,27 @@ nav
     padding: 0px 10px;
     background-color: rgb(10, 120, 87);
     border-radius: 8px;
+}
+
+.general
+{
+    color: white;
+}
+.general h1
+{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.general button
+{
+    color: white;
+    background-color: green;
+
+}
+
+.general button:hover
+{
+    color: white;
+    background-color: blue;
 }
